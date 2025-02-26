@@ -1,5 +1,5 @@
 #Shravya Aspari
-#25/02/25
+#26/02/25
 
 
 #Different types of variables
@@ -90,8 +90,15 @@ svol=3/4*math.pi*r**3
 print("The volume of the sphere is",svol)
 
 #Volume of a Cone
-print("The formula to find the volume of a cone is 1/3 x pi(3.1415) x radius squared x height")
-r=float(input("Please type in the radius and press enter"))
-h=float(input("Please type in the height and press enter"))
+print("The formula to find the volume of a cone is 1/3 x pi(3.1415...) x radius squared x height")
+r=float(input("Please type in the radius and press enter "))
+h=float(input("Please type in the height and press enter "))
 covol=1/3*math.pi*r**2*h
 print("The volume of the cone is",covol)
+
+#Volume of a Cylinder
+print("The formula to find the volume of a cylinder is pi(3.1415...) x radius squared x height")
+r=float(input("Please type in the radius and press enter "))
+h=float(input("Please type in the height and press enter "))
+cyvol=math.pi*r*h
+print("The volume of the cylinder is",cyvol)
