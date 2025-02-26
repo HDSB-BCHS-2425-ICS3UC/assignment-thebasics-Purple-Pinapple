@@ -1,6 +1,6 @@
 #Shravya Aspari
 #26/02/25
-
+#Assignment 1  
 
 #Different types of variables
 
@@ -57,7 +57,7 @@ print("5 to the power of 3 is equal to",exponent)
 
 #Square Root
 root=math.sqrt(81)
-print("The square root of 81 is equal to",(int(root)))
+print("The square root of 81 is equal to",root)
 
 #Modulus(the modulus is the remainder of a division question)
 remainder=125%9
@@ -72,7 +72,6 @@ c=float(input("Please type in the c value and press enter "))
 #The formula for the discriminant
 d=b**2-4*a*c
 print("The discriminant is",d)
-
 
 #Calculating the volume of 3-dimensional shapes
 
