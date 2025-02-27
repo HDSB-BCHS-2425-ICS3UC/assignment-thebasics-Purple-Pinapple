@@ -72,6 +72,12 @@ c=float(input("Please type in the c value and press enter "))
 #The formula for the discriminant
 d=b**2-4*a*c
 print("The discriminant is",d)
+if d > 0:
+    print("This quadratic funtion has 2 roots because trhe discriminant is greater than 0")
+elif d == 0:
+    print("This quadratic funtion has 1 root because the discriminant is equal to 0")
+else:
+    print("This quadratic function has no roots because the discriminant is less than 0")
 
 #Calculating the volume of 3-dimensional shapes
 
@@ -79,25 +85,25 @@ print("The discriminant is",d)
 print("The formula to find the volume of a cude is *side length* cubed")
 l=float(input("Please type in the side length of the cube and press enter "))
 cvol=l**3
-print("The volume of the cube is",cvol)
+print("The volume of the cube is",cvol,"units")
 
 #I already imported math above so I don't need to do it again
 #Volume of a Sphere
 print("The formula to find the volume of a sphere is 4/3 x pi(3.1415...) x radius cubed")
 r=float(input("Please type in the radius and press enter"))
 svol=3/4*math.pi*r**3
-print("The volume of the sphere is",svol)
+print("The volume of the sphere is",svol,"units")
 
 #Volume of a Cone
 print("The formula to find the volume of a cone is 1/3 x pi(3.1415...) x radius squared x height")
 r=float(input("Please type in the radius and press enter "))
 h=float(input("Please type in the height and press enter "))
 covol=1/3*math.pi*r**2*h
-print("The volume of the cone is",covol)
+print("The volume of the cone is",covol,"units")
 
 #Volume of a Cylinder
 print("The formula to find the volume of a cylinder is pi(3.1415...) x radius squared x height")
 r=float(input("Please type in the radius and press enter "))
 h=float(input("Please type in the height and press enter "))
 cyvol=math.pi*r*h
-print("The volume of the cylinder is",cyvol)
+print("The volume of the cylinder is",cyvol,"units")
